@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bodegas Moshe Cuernavaca | Renta de Bodegas Amplias y Seguras</title>
+  <meta name="description" content="Renta bodegas en Cuernavaca con Bodegas Moshe: espacios amplios, limpios y seguros a solo 5 minutos de Galerías Cuernavaca, con acceso directo por la pista. Solicita tu cotización hoy.">
+  <meta name="keywords" content="bodegas en renta Cuernavaca, renta de bodegas Cuernavaca, autoalmacenaje Cuernavaca, storage Cuernavaca, bodegas cerca de Galerías Cuernavaca, Bodegas Moshe">
+  <meta property="og:title" content="Bodegas Moshe Cuernavaca | Renta de Bodegas Amplias y Seguras">
+  <meta property="og:description" content="Espacios de almacenamiento amplios, limpios y seguros a 5 minutos de Galerías Cuernavaca, con acceso directo por la pista.">
+  <meta property="og:image" content="imagenes/fachada-bodegas-moshe-cuernavaca.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-logo">
+    <div class="ld-drops" aria-hidden="true">
+      <span class="ld-drop"></span>
+      <span class="ld-drop"></span>
+      <span class="ld-drop"></span>
+    </div>
+    <div class="ld-brand">
+      <p class="ld-name">Bodegas Moshe</p>
+      <p class="ld-tag">Cuernavaca</p>
+    </div>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="Bodegas Moshe">
+      <div class="logo-drops" aria-hidden="true">
+        <span class="d-b"></span><span class="d-g"></span><span class="d-s"></span>
+      </div>
+      <div class="logo-word">MOSHE <em>Bodegas en Renta</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#products">Usos</a></li>
+      <li><a href="#why">Por qué Elegirnos</a></li>
+      <li><a href="#contact" class="nav-cta">Reservar Ahora</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#products">Usos</a>
+  <a href="#why">Por qué Elegirnos</a>
+  <a href="#contact">Reservar Ahora</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Bodegas Moshe · Cuernavaca, Morelos</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">Guarda Todo en</span></span>
+        <span class="h1-line"><span class="h1-inner">Bodegas Amplias y</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner"><span class="accent-cycle" id="accentCycle">Seguras</span></span></span>
+      </h1>
+      <p class="hero-p">
+        Espacios de almacenamiento amplios, limpios y cómodos a solo 5 minutos de Galerías Cuernavaca, con acceso directo por la pista. La solución ideal para tu mudanza, tu negocio o esas cosas que ya no caben en casa.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">
+          Reservar Mi Bodega
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#products" class="btn-secondary">Ver Usos y Bodegas</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Cifras clave">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="5" data-prefix="" data-suffix=" min">0 min</span>
+          <span class="stat-lbl">A Galerías Cuernavaca</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="100" data-prefix="" data-suffix="%">0%</span>
+          <span class="stat-lbl">Techadas y bardeadas</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Directo</span>
+          <span class="stat-lbl">Acceso por la pista</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Flexible</span>
+          <span class="stat-lbl">Renta a tu medida</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-beam"></div>
+  </div>
+  <div class="hero-scroll-cue" aria-hidden="true">
+    <svg width="22" height="34" viewBox="0 0 22 34" fill="none">
+      <rect x="1" y="1" width="20" height="32" rx="10" stroke="rgba(255,255,255,.25)" stroke-width="1.5"/>
+      <circle class="mouse-dot" cx="11" cy="9" r="3" fill="rgba(255,255,255,.55)"/>
+    </svg>
+    <span class="scroll-label">Scroll</span>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Espacios disponibles hoy</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Ventajas clave">
+  <div class="wrap">
+    <div class="trust-row">
+      <p class="trust-label">Bodegas Moshe te ofrece</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Bodegas Amplias</span>
+        <span class="trust-chip">Instalaciones Limpias</span>
+        <span class="trust-chip">5 min de Galerías Cuernavaca</span>
+        <span class="trust-chip">Acceso por la Pista</span>
+        <span class="trust-chip">Cortinas de Acero</span>
+        <span class="trust-chip">Renta Flexible</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img
+            src="imagenes/interior-bodega-amplia-limpia.jpg"
+            alt="Interior amplio y limpio de bodega en renta en Bodegas Moshe Cuernavaca" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">5 min</p>
+          <p class="a-lbl">De Galerías Cuernavaca</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading">Bodegas Pensadas para Tu Tranquilidad</h2>
+        <p>En Bodegas Moshe sabemos que confiar tus pertenencias a alguien más no es cosa menor. Por eso ofrecemos bodegas amplias, limpias y cómodas, en un complejo techado y bardeado, pensado para que guardar tus cosas sea simple y sin complicaciones.</p>
+        <p>Estamos ubicados en Cuernavaca, a solo 5 minutos de Galerías Cuernavaca, con acceso directo por la pista para que entrar y salir sea siempre rápido y sencillo, sin importar lo que necesites guardar.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n">Amplias</p>
+            <p class="a-stat-l">Espacio de sobra para lo que necesites guardar</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Limpias</p>
+            <p class="a-stat-l">Instalaciones cuidadas todo el año</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Seguras</p>
+            <p class="a-stat-l">Cortinas metálicas de alta resistencia</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="5" data-prefix="" data-suffix=" min"></p>
+            <p class="a-stat-l">De Galerías Cuernavaca</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Lo que nos hace diferentes</p>
+      <h2 class="heading">Todo lo que Buscas en una Bodega</h2>
+      <p class="sub">Espacio, ubicación y seguridad en un solo lugar, para que guardar tus cosas deje de ser un problema.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+            <line x1="12" y1="22.08" x2="12" y2="12"/>
+          </svg>
+        </div>
+        <h3>Bodegas Amplias y Cómodas</h3>
+        <p>Espacios diseñados para guardar desde cajas y muebles hasta inventario de negocio, con la comodidad y limpieza que buscas.</p>
+        <div class="svc-tags">
+          <span class="tag tag-b">Distintos tamaños</span>
+          <span class="tag tag-b">Techadas</span>
+          <span class="tag tag-b">Piso firme</span>
+          <span class="tag tag-b">Fácil acceso</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <div class="svc-icon ic-green">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9932E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="10" r="3"/>
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+          </svg>
+        </div>
+        <h3>Ubicación Estratégica</h3>
+        <p>A solo 5 minutos de Galerías Cuernavaca, con acceso directo por la pista para que llegar y salir nunca sea complicado.</p>
+        <div class="svc-tags">
+          <span class="tag tag-g">5 min de Galerías</span>
+          <span class="tag tag-g">Acceso por la pista</span>
+          <span class="tag tag-g">Cuernavaca</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <div class="svc-icon ic-slate">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <polyline points="9 12 11 14 15 10"/>
+          </svg>
+        </div>
+        <h3>Seguridad y Tranquilidad</h3>
+        <p>Cortinas metálicas de alta resistencia e instalaciones bardeadas, para que lo que guardes esté siempre protegido.</p>
+        <div class="svc-tags">
+          <span class="tag">Cortinas de acero</span>
+          <span class="tag">Instalación bardeada</span>
+          <span class="tag">Acceso controlado</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- USOS Y SOLUCIONES -->
+<section id="products" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header">
+      <div>
+        <p class="eyebrow">Usos y soluciones</p>
+        <h2 class="heading">Una Bodega para Cada Necesidad</h2>
+      </div>
+      <a href="#contact" class="btn-outline rev">Consultar Disponibilidad</a>
+    </div>
+    <div class="prod-grid">
+
+      <div class="prod-card rev d1">
+        <div class="p-icon ic-blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/>
+            <path d="M3 9V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4"/>
+            <line x1="12" y1="3" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3>Mudanzas y Cambios de Casa</h3>
+        <p>Guarda tus pertenencias mientras te mudas o remodelas, sin prisas ni estrés.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="p-icon ic-green">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9932E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.07 4.93l-1.41 1.41M6.34 17.66l-1.41 1.41M2 12H4M20 12h2M17.66 17.66l1.41 1.41M4.93 4.93l1.41 1.41"/>
+          </svg>
+        </div>
+        <h3>Muebles y Electrodomésticos</h3>
+        <p>Protege sillones, colchones y electrodomésticos que no caben en casa.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="p-icon ic-slate">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <h3>Inventario de Negocio</h3>
+        <p>Almacena mercancía y resguarda tu inventario con acceso cuando lo necesites.</p>
+        <span class="prod-pill">Negocio</span>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="p-icon ic-blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+        </div>
+        <h3>Documentos y Archivo Muerto</h3>
+        <p>Libera espacio en tu oficina guardando papelería y archivo de forma segura.</p>
+        <span class="prod-pill">Negocio</span>
+      </div>
+
+      <div class="prod-card rev d1">
+        <div class="p-icon ic-green">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9932E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <h3>Herramientas y Equipo</h3>
+        <p>Un lugar seco y techado para maquinaria, herramientas y equipo de trabajo.</p>
+        <span class="prod-pill">Negocio</span>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="p-icon ic-slate">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+          </svg>
+        </div>
+        <h3>Decoración de Temporada</h3>
+        <p>Guarda los adornos navideños y de temporada sin que ocupen espacio en casa.</p>
+        <span class="prod-pill">Temporada</span>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="p-icon ic-blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+            <line x1="6" y1="1" x2="6" y2="4"/>
+            <line x1="10" y1="1" x2="10" y2="4"/>
+            <line x1="14" y1="1" x2="14" y2="4"/>
+          </svg>
+        </div>
+        <h3>Artículos Deportivos</h3>
+        <p>Bicicletas, tablas, equipo de campamento: todo listo para cuando quieras usarlo.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="p-icon ic-green">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9932E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+        </div>
+        <h3>Objetos de Valor</h3>
+        <p>Resguarda colecciones y piezas importantes en un espacio limpio y protegido.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+      <div class="prod-card rev d1">
+        <div class="p-icon ic-slate">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <h3>Remodelación del Hogar</h3>
+        <p>Saca los muebles de la zona en obra y evita golpes o daños durante la remodelación.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="p-icon ic-blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+          </svg>
+        </div>
+        <h3>Viajes de Temporada</h3>
+        <p>¿Te vas una temporada? Deja tus cosas resguardadas mientras regresas.</p>
+        <span class="prod-pill">Temporada</span>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="p-icon ic-green">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9932E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+          </svg>
+        </div>
+        <h3>Material de Construcción</h3>
+        <p>Espacio adicional para materiales y herramientas de tu próximo proyecto.</p>
+        <span class="prod-pill">Negocio</span>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="p-icon ic-slate">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3>Espacio Extra para tu Hogar</h3>
+        <p>Cuando el clóset y el garage ya no alcanzan, tu bodega es la solución.</p>
+        <span class="prod-pill">Hogar</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY MOSHE -->
+<section id="why" class="section bg-navy">
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img
+            src="imagenes/cortina-metalica-bodega-individual.jpg"
+            alt="Cortina metálica de alta resistencia en bodega individual de Bodegas Moshe" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">5 min</p>
+          <p class="wib-l">De Galerías Cuernavaca</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white">¿Por Qué Elegir Bodegas Moshe?</h2>
+        <p class="sub sub--white">Cerca de ti, con instalaciones pensadas para que guardar tus cosas sea fácil, seguro y sin complicaciones.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <div class="ben-icon ben-icon-b">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FA8E8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Bodegas Seguras</h4>
+              <p>Cortinas metálicas de alta resistencia y complejo bardeado para proteger lo que más te importa.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F0BB5C" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Ubicación Estratégica</h4>
+              <p>A solo 5 minutos de Galerías Cuernavaca, con acceso directo por la pista para llegar sin complicaciones.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-b">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FA8E8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Espacios Amplios y Limpios</h4>
+              <p>Bodegas techadas, con piso firme y el tamaño ideal para lo que necesitas guardar.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-w">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Atención Cercana y Flexible</h4>
+              <p>Contratos claros y flexibles, con atención directa y personalizada para cada cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section id="numbers">
+  <div class="wrap">
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v" data-count="5" data-prefix="" data-suffix=" min"></p>
+        <p class="num-l">A Galerías Cuernavaca</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v" data-count="100" data-prefix="" data-suffix="%"></p>
+        <p class="num-l">Techadas y bardeadas</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Directo</p>
+        <p class="num-l">Acceso por la pista</p>
+      </div>
+      <div class="number-item rev d4">
+        <p class="num-v">Variedad</p>
+        <p class="num-l">De tamaños disponibles</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="brands">
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Conócenos</p>
+      <h2 class="heading heading--white">Nuestras Instalaciones</h2>
+      <p class="brands-sub">Bodegas techadas, limpias y con acceso directo por la pista, listas para lo que necesites guardar.</p>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/bodegas-moshe-atardecer-cuernavaca.jpg" alt="Bodegas Moshe al atardecer en Cuernavaca" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/fachada-bodegas-moshe-cuernavaca.jpg" alt="Fachada de bodegas con cortinas metálicas en Bodegas Moshe Cuernavaca" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/interior-bodega-amplia-limpia.jpg" alt="Interior amplio y limpio de bodega en renta" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/cortina-metalica-bodega-individual.jpg" alt="Cortina metálica de bodega individual en Cuernavaca" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d5">
+        <div class="brand-card-inner">
+          <img src="imagenes/interior-bodega-vacia-cuernavaca.jpg" alt="Interior de bodega vacía lista para guardar tus pertenencias" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/exterior-bodegas-moshe-cuernavaca.jpg" alt="Exterior del complejo de Bodegas Moshe en Cuernavaca" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/bodega-cortina-metalica-noche.jpg" alt="Bodega con cortina metálica de acero resistente" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/bodega-uso-mudanza-muebles.jpg" alt="Bodega usada para guardar muebles durante una mudanza" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/bodega-almacenamiento-organizado.jpg" alt="Bodega con almacenamiento organizado de cajas y equipo" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d5">
+        <div class="brand-card-inner">
+          <img src="imagenes/bodega-almacenamiento-temporada.jpg" alt="Bodega utilizada para guardar artículos de temporada" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <p class="brands-note rev">Fotografías reales de nuestras bodegas en Cuernavaca</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info rev from-l">
+        <p class="eyebrow">Contáctanos</p>
+        <h2 class="heading">Aparta Tu Bodega Hoy Mismo</h2>
+        <p class="sub" style="margin-bottom:36px">Escríbenos y con gusto te ayudamos a encontrar la bodega ideal para lo que necesitas guardar.</p>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.27z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">WhatsApp / Teléfono</p>
+            <p class="c-value"><a href="tel:+527773388384">777 338 8384</a></p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">Redes Sociales</p>
+            <p class="c-value"><a href="https://www.facebook.com/share/1BnYTGPPqM/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Síguenos en Facebook</a></p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">Ubicación</p>
+            <p class="c-value">Cuernavaca, Morelos<br>A 5 minutos de Galerías Cuernavaca, acceso por la pista</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D5BA6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">Tiempo de respuesta</p>
+            <p class="c-value">Te respondemos el mismo día por WhatsApp</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Cotización</h3>
+          <p class="form-sub">Te respondemos el mismo día por WhatsApp.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Su nombre completo" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="fe">Empresa (opcional)</label>
+                <input class="fi" type="text" id="fe" name="empresa" placeholder="Nombre de la empresa" autocomplete="organization">
+              </div>
+            </div>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="777 000 0000" required autocomplete="tel">
+              </div>
+              <div class="fg">
+                <label class="fl" for="fem">Correo electrónico</label>
+                <input class="fi" type="email" id="fem" name="email" placeholder="correo@ejemplo.com" autocomplete="email">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">¿Qué necesitas guardar? *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Mudanza / Cambio de casa">Mudanza / Cambio de casa</option>
+                <option value="Muebles y electrodomésticos">Muebles y electrodomésticos</option>
+                <option value="Documentos y archivo">Documentos y archivo</option>
+                <option value="Inventario de negocio">Inventario de negocio</option>
+                <option value="Herramientas y equipo">Herramientas y equipo</option>
+                <option value="Temporada / Decoración">Temporada / Decoración</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Cuéntanos qué necesitas guardar *</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="4" placeholder="Describe brevemente qué necesitas guardar y por cuánto tiempo..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <div class="logo-drops" aria-hidden="true">
+            <span class="d-b"></span>
+            <span class="d-g"></span>
+            <span class="d-s"></span>
+          </div>
+          <div class="logo-word">MOSHE <em>Bodegas en Renta</em></div>
+        </div>
+        <p class="foot-desc">Bodegas amplias, limpias y cómodas en Cuernavaca, a 5 minutos de Galerías Cuernavaca y con acceso directo por la pista.</p>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Bodegas Amplias y Cómodas</a></li>
+          <li><a href="#services">Ubicación Estratégica</a></li>
+          <li><a href="#services">Seguridad y Tranquilidad</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Usos</p>
+        <ul class="foot-links">
+          <li><a href="#products">Mudanzas y Muebles</a></li>
+          <li><a href="#products">Inventario de Negocio</a></li>
+          <li><a href="#products">Documentos y Archivo</a></li>
+          <li><a href="#products">Ver todos los usos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+527773388384">777 338 8384</a></li>
+          <li><a href="https://www.facebook.com/share/1BnYTGPPqM/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="#contact">Reservar Ahora</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Bodegas Moshe</span>. Todos los derechos reservados.</p>
+      <p>Cuernavaca, Morelos</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div class="wa-float">
+  <span class="wa-tip">Escríbenos por WhatsApp</span>
+  <a href="https://wa.me/527773388384"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="wa-btn"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+      <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
