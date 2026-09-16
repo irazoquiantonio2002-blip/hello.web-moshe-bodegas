@@ -771,8 +771,12 @@ nav.stuck .hamburger span { background: var(--navy); }
   height: 100%;
   max-width: none;
   max-height: none;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
+  transition: transform .35s ease;
+}
+.brand-card:hover .brand-card-inner img {
+  transform: scale(1.07);
 }
 
 /* Bottom note */
