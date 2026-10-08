@@ -171,7 +171,7 @@ nav.stuck .hamburger span { background: var(--navy); }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url('imagenes/fachada-bodegas-moshe-cuernavaca.jpg');
+  background-image: url('imagenes/bodegas-fachada-frontal-abiertas.jpg');
   background-size: cover;
   background-position: center 60%;
   z-index: 0;
